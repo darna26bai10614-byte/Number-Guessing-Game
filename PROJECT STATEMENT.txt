@@ -1,0 +1,70 @@
+# PROJECT STATEMENT
+
+## Title: Number Guessing Game
+
+### Problem Statement
+
+Many beginner programming exercises focus on individual Python concepts without demonstrating how these concepts can work together to create an interactive application. There is a need for a simple and engaging application that allows students to apply fundamental Python programming concepts in a practical situation.
+
+The **Number Guessing Game** is a command-line application developed using Python in which the computer generates a random number within a selected range and the player attempts to guess the number within a limited number of attempts.
+
+The application provides three difficulty levels—Easy, Medium, and Hard. Each level has a different number range and number of available attempts. After every incorrect guess, the application provides feedback indicating whether the guessed number is too high or too low. It also provides a hint based on how close the guess is to the randomly generated number.
+
+The application includes input validation to handle invalid entries and a scoring system that rewards the player based on the number of remaining attempts and the selected difficulty level.
+
+### Objectives
+
+The objectives of this project are:
+
+1. To develop an interactive command-line application using Python.
+2. To demonstrate the practical use of conditional statements and loops.
+3. To use Python's `random` module for random number generation.
+4. To implement input validation and exception handling.
+5. To develop a difficulty-based scoring mechanism.
+6. To provide interactive feedback and hints to the user.
+7. To combine multiple Python Essentials concepts into a functional application.
+
+### Proposed Solution
+
+The proposed solution is a Python-based Number Guessing Game that allows the user to select a difficulty level before starting the game.
+
+Based on the selected difficulty, the program automatically determines the number range and maximum number of attempts. A random secret number is then generated. The player enters guesses until the correct number is found or all available attempts are used.
+
+The program evaluates every valid guess and provides appropriate feedback. When the player successfully guesses the number, a score is calculated. If all attempts are exhausted, the game ends and displays the correct number.
+
+### Expected Outcome
+
+The expected outcome of the project is a fully functional command-line game that:
+
+* Accepts user input.
+* Provides multiple difficulty levels.
+* Generates a random secret number.
+* Validates user guesses.
+* Provides high/low feedback.
+* Generates proximity-based hints.
+* Calculates a score.
+* Handles invalid input without crashing.
+* Displays the final result clearly.
+
+### Python Concepts Used
+
+The project applies the following Python concepts:
+
+* Variables and data types
+* `input()` and output using `print()`
+* `if`, `elif`, and `else`
+* `while` loop
+* `try-except` exception handling
+* Arithmetic and comparison operators
+* `random.randint()`
+* Absolute difference using `abs()`
+* String handling
+* Basic program control flow
+
+### Scope
+
+The project is designed as a beginner-friendly Python command-line application. It can later be extended with features such as multiple rounds, player profiles, persistent high scores, leaderboards, timers, statistics, and a graphical user interface.
+
+### Conclusion
+
+The Number Guessing Game provides a practical way to demonstrate fundamental Python programming concepts through an interactive application. It combines user input, decision-making, loops, random number generation, validation, hints, and scoring into a single functional program.
