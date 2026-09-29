@@ -1,6 +1,6 @@
-# Number Guessing Game
+# Number Guessing Game🎯
 
-## Python Essentials Project
+📸 Python Essentials Project
 
 A simple command-line **Number Guessing Game** developed in Python. The player selects a difficulty level, receives a randomly generated number within a specified range, and tries to guess it within a limited number of attempts.
 
@@ -8,7 +8,7 @@ The project demonstrates core Python programming concepts such as conditional st
 
 ---
 
-## 1. Project Overview
+🚀 1. Project Overview
 
 The **Number Guessing Game** is an interactive console-based application designed to make basic Python programming concepts practical and easy to demonstrate.
 
@@ -24,7 +24,7 @@ The game provides feedback after every valid guess, including whether the guess 
 
 ---
 
-## 2. Objectives
+🕹️ 2. Objectives
 
 The main objectives of this project are:
 
@@ -39,7 +39,7 @@ The main objectives of this project are:
 
 ---
 
-## 3. Features
+🧮 3. Features
 
 ### Difficulty Selection
 
